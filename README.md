@@ -26,7 +26,7 @@
 ### Frontend
 - **React** 
 - **HTML5**, **CSS3**, **JavaScript**
-- **Axios** for making API requests
+- **Axios** - for making API requests
 
 ### Backend
 - **Python**
@@ -78,10 +78,10 @@ Expense Tracker/
             └── docker-compose.yml
 ```
 ## Future inprovements
-**User Authentucation**: Implementing user login and registration to allow multiple users to manage their expenses securely.
-**Role-Based Access Control**: Adding support for different user roles (e.g., admin vs. regular user).
-**Export/Import Features**: Allowing users to export expense data to CSV or PDF and import data from other tools.
-**Visualization**: Integrating charts and graphs for a more visual representation of expense trends.
-**Multi-Currency Support**: Adding the ability to handle multiple currencies and perform real-time conversions.
-**Global Deployment**: Hosting the application on a global cloud service like Google Cloud Run to ensure accessibility from any device connected to the internet.
+- **User Authentucation**: Implementing user login and registration to allow multiple users to manage their expenses securely.
+- **Role-Based Access Control**: Adding support for different user roles (e.g., admin vs. regular user).
+- **Export/Import Features**: Allowing users to export expense data to CSV or PDF and import data from other tools.
+- **Visualization**: Integrating charts and graphs for a more visual representation of expense trends.
+- **Multi-Currency Support**: Adding the ability to handle multiple currencies and perform real-time conversions.
+- **Global Deployment**: Hosting the application on a global cloud service like Google Cloud Run to ensure accessibility from any device connected to the internet.
 
