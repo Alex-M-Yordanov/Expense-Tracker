@@ -28,12 +28,12 @@
 ### Backend
 - **Python**
 - **Flask**
-  **Flask SQLAlchemy** - for ORM
-  **Flask CORS** - for cross-origin resource sharing
-  **Flask RESTful** - for structuring APIs
+  - **Flask SQLAlchemy** - for ORM
+  - **Flask CORS** - for cross-origin resource sharing
+  - **Flask RESTful** - for structuring APIs
 
 ### Database
-- **MySQL** for persistent data storage
+- **MySQL** - for persistent data storage
 
 ### Tools & Deployment
 - **Docker** - for containerization of both backend and frontend
