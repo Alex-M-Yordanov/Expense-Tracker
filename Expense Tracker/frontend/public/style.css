@@ -1,0 +1,245 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    min-height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 5%;
+  }
+
+  h3 {
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+
+  h2 {
+    margin-top: 5%;
+    margin-bottom: 1%;
+  }
+  
+  
+
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  form input,
+  form select,
+  form button {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  form input,
+  form select {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  form button {
+    background-color: #5ca2ed;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+  }
+  
+  form button:hover {
+    background-color: #2b65a3;
+  }
+  
+  /* Table Styles */
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table th,
+  table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #5ca2ed;
+    color: white;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  table tr:hover {
+    background-color: #d5e4f2;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 8px;
+    min-width: 80px;
+    max-height: 45px;
+    background-color: #5ca2ed;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2b65a3;
+  }
+  
+  /* Spacing and Layout */
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .centered {
+    text-align: center;
+  }
+  
+  .result {
+    font-size: 22px;
+    color: rgb(113, 62, 180);
+    font-weight: bold;
+  }
+
+  input, select, textarea {
+    margin-left: 1%;
+    margin-top: 1%;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+
+  input {
+    min-width: 90px;
+  }
+  footer {
+    margin-top: 6%;
+  }
+
+  .output {
+    color: #5ca2ed;
+    padding: 10px;
+    margin-bottom: 8px;
+    background-color: #ffffff; /* White background for each item */
+    border-radius: 4px;
+    border: 1px solid #ddd; /* Light border */
+    font-size: 16px;
+    line-height: 1.6;
+    border-radius: 20px;
+    max-width: 470px;
+  }
+
+  .addgroup{
+    max-width: 200px;
+  }
+  
+  .navigation-bar {
+    margin-top: 6%;
+    background-color: #5ca2ed; /* Primary blue color */
+    padding: 20px 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    position: sticky;
+    top: 0;
+    border-radius: 14px;
+    z-index: 1000; /* Ensures it stays on top */
+  }
+  
+  .navigation-bar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Vertically center the links */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navigation-bar li {
+    margin: 0 15px;
+    position: relative; /* Enables positioning for the hover underline effect */
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    position: relative; /* Enables positioning for the underline effect */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover effects */
+  }
+  
+  .nav-link:hover {
+    color: #eaec87; /* Gold color on hover */
+    transform: scale(1.1); /* Slightly enlarge the link on hover */
+  }
+  
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: -5px; /* Slightly below the text */
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #eaec87; /* Gold underline */
+    transform: scaleX(0); /* Start with no underline */
+    transform-origin: left; /* Expand from the left */
+    transition: transform 0.3s ease; /* Smooth animation */
+  }
+  
+  .nav-link:hover::after {
+    transform: scaleX(1); /* Show the underline on hover */
+  }
+  
+  .active-link {
+    color: #eaec87; /* Highlight active link */
+  }
+  
+  .active-link::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #eaec87; /* Gold underline for active link */
+    transform: scaleX(1); /* Keep the underline visible */
+    transform-origin: left;
+  }
+  
