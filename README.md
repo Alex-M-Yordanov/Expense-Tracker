@@ -40,3 +40,38 @@
 
 ## Project Structure
 
+```plaintext
+Expense Tracker/
+            │
+            ├── backend/
+            |       ├── Dockerfile
+            |       ├── main.py
+            |       └── requirements.txt
+            |
+            ├── frontend/
+            │        ├── public/
+            │               ├── favicon.ico
+            │               ├── index.html
+            │               └── style.css
+            │        ├── src/
+            │            ├── components/
+            │                       ├── AddExpense.js
+            │                       ├── AddGroup.js
+            │                       ├── DeleteExpense.js
+            │                       ├── DeleteGroup.js
+            │                       ├── GroupMonthAverageByPeriod.js
+            │                       ├── GroupTotalByMonth.js
+            │                       ├── GroupTotalByYear.js
+            │                       ├── ListByGroup.js
+            │                       ├── TotalByMonth.js
+            │                       ├── TotalByRange.js
+            │                       └── TotalByYear.js
+            │            ├── App.js
+            │            └── index.js
+            │        ├── Dockerfile
+            │        ├── package-lock.json
+            │        └── package.json
+            │
+            └── docker-compose.yml
+```
+
