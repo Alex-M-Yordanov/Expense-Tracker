@@ -14,7 +14,7 @@
 
 - **Expense Gategory Management**: Create, delete and list contents of expense categories.
 - **Expense Entry Management**: Add and delete individual expense entries.
-- **Advanced Analytics**: Get expense totals by month, year, category, or custom date ranges as well as date range average.
+- **Various Analytics**: Get expense totals by month, year, category, or custom date ranges as well as date range average.
 - **Dynamic Frontend**: Interactive and responsive frontend for seamless user experience.
 - **RESTful API**: Backend exposes well-structured RESTful API endpoints for all CRUD operations.
 - **Dockerized Deployment**: Both backend and frontend are containerized using Docker for consistency and easy deployment.
