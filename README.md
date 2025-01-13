@@ -1,7 +1,5 @@
-# Expense-Tracker
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-### Table of Contents
+# Expense Tracker
+## Table of Contents
 * [Project Overview](#project-overview)
 * [Features](#features)
 * [Technologies Used](#technologies-used)
@@ -77,7 +75,7 @@ Expense Tracker/
             │
             └── docker-compose.yml
 ```
-## Future inprovements
+## Future Improvements
 - **User Authentucation**: Implementing user login and registration to allow multiple users to manage their expenses securely.
 - **Role-Based Access Control**: Adding support for different user roles (e.g., admin vs. regular user).
 - **Export/Import Features**: Allowing users to export expense data to CSV or PDF and import data from other tools.
