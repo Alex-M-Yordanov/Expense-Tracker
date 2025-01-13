@@ -6,9 +6,11 @@
 * [Features](#features)
 * [Technologies Used](#technologies-used)
 * [Folder Structure](#folder-structure)
-* [Usage](#usage)
-* [Testing](#testing)
-* [Code Quality](#code-quality)
+* [Future Improvements](#future-improvements)
+
+
+## Project Overview
+&nbsp;&nbsp;&nbsp;&nbsp;This is an expense tracker designed for my personal use. Built as a full-stack application, it allows the user to organize and analyze their expenses with ease. By combining a dynamic frontend, a RESTful backend, and database-driven analytics, this tool simplifies the process of monitoring personal or business finances.
 
 ## Features
 
@@ -20,6 +22,7 @@
 - **Dockerized Deployment**: Both backend and frontend are containerized using Docker for consistency and easy deployment.
 
 ## Technologies Used
+
 ### Frontend
 - **React** 
 - **HTML5**, **CSS3**, **JavaScript**
@@ -38,7 +41,7 @@
 ### Tools & Deployment
 - **Docker** - for containerization of both backend and frontend
 
-## Project Structure
+## Folder Structure
 
 ```plaintext
 Expense Tracker/
@@ -74,4 +77,11 @@ Expense Tracker/
             │
             └── docker-compose.yml
 ```
+## Future inprovements
+**User Authentucation**: Implementing user login and registration to allow multiple users to manage their expenses securely.
+**Role-Based Access Control**: Adding support for different user roles (e.g., admin vs. regular user).
+**Export/Import Features**: Allowing users to export expense data to CSV or PDF and import data from other tools.
+**Visualization**: Integrating charts and graphs for a more visual representation of expense trends.
+**Multi-Currency Support**: Adding the ability to handle multiple currencies and perform real-time conversions.
+**Global Deployment**: Hosting the application on a global cloud service like Google Cloud Run to ensure accessibility from any device connected to the internet.
 
